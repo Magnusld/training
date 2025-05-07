@@ -6,6 +6,7 @@ export interface TrainingDay {
   activity: string;
   details: string;
   notes?: string;
+  pace_guide?: string;
 }
 
 export interface TrainingWeek {
