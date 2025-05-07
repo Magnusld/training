@@ -40,7 +40,7 @@ export const getTodaysTraining = (plan: TrainingWeek[]): TrainingDay | null => {
 };
 
 export const getFutureTrainings = (plan: TrainingWeek[]): TrainingWeek[] => {
-  const todayStr = getTodayString();
+  // Removed unused 'todayStr' variable
   const futurePlan: TrainingWeek[] = [];
 
   plan.forEach(week => {

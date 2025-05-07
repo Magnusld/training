@@ -11,8 +11,10 @@ const TodayTraining: React.FC<TodayTrainingProps> = ({ trainingDay, currentDate 
   if (!trainingDay) {
     return (
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-        <h2 className="text-2xl font-bold mb-2 text-blue-400">Today's Plan ({formatDateString(currentDate)})</h2>
-        <p className="text-lg">No specific training scheduled for today. Perhaps it's a rest day or time for some light cross-training!</p>
+        {/* Corrected: Escaped apostrophe */}
+        <h2 className="text-2xl font-bold mb-2 text-blue-400">Today&apos;s Plan ({formatDateString(currentDate)})</h2>
+        {/* Corrected: Escaped apostrophe */}
+        <p className="text-lg">No specific training scheduled for today. Perhaps it&apos;s a rest day or time for some light cross-training!</p>
       </div>
     );
   }
@@ -37,3 +39,4 @@ const TodayTraining: React.FC<TodayTrainingProps> = ({ trainingDay, currentDate 
 };
 
 export default TodayTraining;
+
