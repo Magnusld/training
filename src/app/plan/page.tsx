@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import FullPlanDisplay from '../../components/FullPlanDisplay';
-import trainingPlanData from '../../data/trainingPlan.json';
-import { getFutureTrainings, TrainingWeek } from '../../utils/dateUtils'; // Using getFutureTrainings
+import Link from "next/link";
+import FullPlanDisplay from "../../components/FullPlanDisplay";
+import trainingPlanData from "../../data/trainingPlan.json";
+import { getFutureTrainings, TrainingWeek } from "../../utils/dateUtils"; // Using getFutureTrainings
 
 export default function FullPlanPage() {
   // Cast the imported JSON to the TrainingWeek[] type
@@ -21,13 +21,14 @@ export default function FullPlanPage() {
         </Link>
       </nav>
       {upcomingPlan.length > 0 ? (
-        <FullPlanDisplay plan={upcomingPlan} />
+        <FullPlanDisplay plan={allWeeks} />
       ) : (
         <p className="text-center text-xl text-gray-300 mt-10">
-          The marathon date has passed or the plan is not available for future dates.
+          The marathon date has passed or the plan is not available for future
+          dates.
         </p>
       )}
-       <div className="mt-10 text-center">
+      <div className="mt-10 text-center">
         <Link href="/" legacyBehavior>
           <a className="px-5 py-2 bg-gray-600 hover:bg-gray-700 text-white font-semibold rounded-lg shadow-md transition duration-300">
             Back to Today

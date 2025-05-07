@@ -14,6 +14,7 @@ export interface TrainingWeek {
   startDate: string; // "YYYY-MM-DD"
   focus: string;
   days: TrainingDay[];
+  totalWeeklyKm: number;
 }
 
 export const getTodayString = (): string => {
