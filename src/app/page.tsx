@@ -1,7 +1,11 @@
-import Link from 'next/link';
-import TodayTraining from '../components/TodayTraining';
-import trainingPlanData from '../data/trainingPlan.json';
-import { getTodaysTraining, getTodayString, TrainingWeek } from '../utils/dateUtils';
+import Link from "next/link";
+import TodayTraining from "../components/TodayTraining";
+import trainingPlanData from "../data/trainingPlan.json";
+import {
+  getTodaysTraining,
+  getTodayString,
+  TrainingWeek,
+} from "../utils/dateUtils";
 
 export default function HomePage() {
   const plan: TrainingWeek[] = trainingPlanData as TrainingWeek[];
@@ -10,7 +14,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen flex flex-col items-center pt-8 md:pt-12">
-      <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-300">
+      <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-300 h-14">
         Marathon Training
       </h1>
 

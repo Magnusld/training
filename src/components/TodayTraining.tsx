@@ -20,9 +20,9 @@ const TodayTraining: React.FC<TodayTrainingProps> = ({ trainingDay, currentDate 
   }
 
   return (
-    <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+    <div className="bg-gray-800 mt-2 p-6 rounded-lg shadow-lg">
       <h2 className="text-3xl font-bold mb-3 text-blue-400">
-        Today: {formatDateString(trainingDay.date)} ({trainingDay.dayOfWeek})
+        Today: {formatDateString(trainingDay.date)} 
       </h2>
       <div className="mb-4">
         <p className="text-xl font-semibold text-yellow-400">{trainingDay.activity}</p>
@@ -32,6 +32,7 @@ const TodayTraining: React.FC<TodayTrainingProps> = ({ trainingDay, currentDate 
         <div>
           <p className="text-sm font-semibold text-green-400">Notes:</p>
           <p className="text-gray-400 italic">{trainingDay.notes}</p>
+          {trainingDay.pace_guide && <p className="text-xs italic mt-1 text-cyan-400">Pace: {trainingDay.pace_guide}</p>}
         </div>
       )}
     </div>

@@ -26,6 +26,7 @@ const DayDisplay: React.FC<{ day: TrainingDay }> = ({ day }) => {
       <p className="text-lg font-bold ${status === 'today' ? 'text-yellow-300' : status === 'future' ? 'text-yellow-400' : 'text-yellow-600'}">{day.activity}</p>
       <p className="text-sm">{day.details}</p>
       {day.notes && <p className="text-xs italic mt-1 text-gray-400">{day.notes}</p>}
+      {day.pace_guide && <p className="text-xs italic mt-1 text-gray-400">Pace: {day.pace_guide}</p>}
     </div>
   );
 };
