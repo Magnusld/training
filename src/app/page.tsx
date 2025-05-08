@@ -7,6 +7,8 @@ import {
   TrainingWeek,
 } from "../utils/dateUtils";
 
+export const dynamic = 'force-dynamic';
+
 export default function HomePage() {
   const plan: TrainingWeek[] = trainingPlanData as TrainingWeek[];
   const todayStr = getTodayString();
