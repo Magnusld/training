@@ -5,13 +5,60 @@
     "focus": "Base Building - Consistency",
     "totalWeeklyKm": 29.4,
     "days": [
-      { "date": "2025-05-05", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30-45 min light cross-training", "notes": "Focus on active recovery if sore." },
-      { "date": "2025-05-06", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "5km", "pace_guide": "5:50 - 6:30 min/km", "notes": "Keep it very comfortable." },
-      { "date": "2025-05-07", "dayOfWeek": "Wednesday", "activity": "Easy Run", "details": "6km", "pace_guide": "5:50 - 6:30 min/km", "notes": "Focus on form." },
-      { "date": "2025-05-08", "dayOfWeek": "Thursday", "activity": "Intervals", "details": "10 min warm-up. 6 x 400m with 400m jog recovery. 10 min cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). 400m Repeats: 4:20 - 4:35 min/km (1:44-1:49 per 400m). Recovery Jogs: Very slow.", "notes": "Focus on consistent effort." },
-      { "date": "2025-05-09", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "Prepare for the long run." },
-      { "date": "2025-05-10", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "10km", "pace_guide": "5:50 - 6:30 min/km", "notes": "Slow and steady." },
-      { "date": "2025-05-11", "dayOfWeek": "Sunday", "activity": "Easy Run or XT", "details": "4km or 30 min XT", "pace_guide": "If running: 5:50 - 6:30 min/km", "notes": "Recovery effort." }
+      {
+        "date": "2025-05-05",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30-45 min light cross-training",
+        "notes": "Focus on active recovery if sore."
+      },
+      {
+        "date": "2025-05-06",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "5km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": "Keep it very comfortable."
+      },
+      {
+        "date": "2025-05-07",
+        "dayOfWeek": "Wednesday",
+        "activity": "Easy Run",
+        "details": "6km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": "Focus on form."
+      },
+      {
+        "date": "2025-05-08",
+        "dayOfWeek": "Thursday",
+        "activity": "Intervals",
+        "details": "10 min warm-up. 6 x 400m with 400m jog recovery. 10 min cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). 400m Repeats: 4:20 - 4:35 min/km (1:44-1:49 per 400m). Recovery Jogs: Very slow.",
+        "notes": "Focus on consistent effort."
+      },
+      {
+        "date": "2025-05-09",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": "Prepare for the long run."
+      },
+      {
+        "date": "2025-05-10",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "10km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": "Slow and steady."
+      },
+      {
+        "date": "2025-05-11",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or XT",
+        "details": "4km or 30 min XT",
+        "pace_guide": "If running: 5:50 - 6:30 min/km",
+        "notes": "Recovery effort."
+      }
     ]
   },
   {
@@ -20,43 +67,184 @@
     "focus": "Base Building - Mileage Increase",
     "totalWeeklyKm": 30.0,
     "days": [
-      { "date": "2025-05-12", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30-45 min cross-training", "notes": "" },
-      { "date": "2025-05-13", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "6km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-05-14", "dayOfWeek": "Wednesday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-05-15", "dayOfWeek": "Thursday", "activity": "Tempo Run", "details": "10 min warm-up. 20 min Tempo. 10 min cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Tempo: 5:10 - 5:30 min/km.", "notes": "Comfortably hard." },
-      { "date": "2025-05-16", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-05-17", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "12km", "pace_guide": "5:50 - 6:30 min/km", "notes": "Maintain consistent easy pace." },
-      { "date": "2025-05-18", "dayOfWeek": "Sunday", "activity": "Easy Run or Rest", "details": "5km or Rest", "pace_guide": "If running: 5:50 - 6:30 min/km", "notes": "Listen to your body." }
+      {
+        "date": "2025-05-12",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30-45 min cross-training",
+        "notes": ""
+      },
+      {
+        "date": "2025-05-13",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "6km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-05-14",
+        "dayOfWeek": "Wednesday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-05-15",
+        "dayOfWeek": "Thursday",
+        "activity": "Tempo Run",
+        "details": "10 min warm-up. 20 min Tempo. 10 min cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Tempo: 5:10 - 5:30 min/km.",
+        "notes": "Comfortably hard."
+      },
+      {
+        "date": "2025-05-16",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-05-17",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "12km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": "Maintain consistent easy pace."
+      },
+      {
+        "date": "2025-05-18",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or Rest",
+        "details": "5km or Rest",
+        "pace_guide": "If running: 5:50 - 6:30 min/km",
+        "notes": "Listen to your body."
+      }
     ]
   },
   {
     "week": 3,
     "startDate": "2025-05-19",
-    "focus": "Increasing Mileage & Intensity",
-    "totalWeeklyKm": 39.4,
+    "focus": "Unexpected Light Week (Sickness)",
+    "totalWeeklyKm": 5.0,
     "days": [
-      { "date": "2025-05-19", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30-45 min cross-training", "notes": "" },
-      { "date": "2025-05-20", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-05-21", "dayOfWeek": "Wednesday", "activity": "Easy Run", "details": "8km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-05-22", "dayOfWeek": "Thursday", "activity": "Intervals", "details": "10 min warm-up. 8 x 400m with 400m jog recovery. 10 min cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). 400m Repeats: 4:20 - 4:35 min/km. Recovery Jogs: Very slow.", "notes": "Focus on even splits." },
-      { "date": "2025-05-23", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-05-24", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "15km", "pace_guide": "5:50 - 6:30 min/km. Option: Last 2km @ MP (5:41 min/km).", "notes": "Practice fueling." },
-      { "date": "2025-05-25", "dayOfWeek": "Sunday", "activity": "Easy Run or XT", "details": "5km or 30 min XT", "pace_guide": "If running: 5:50 - 6:30 min/km", "notes": "Active recovery." }
+      {
+        "date": "2025-05-19",
+        "dayOfWeek": "Monday",
+        "activity": "Rest",
+        "details": "Missed due to sickness",
+        "notes": "Focus on recovery."
+      },
+      {
+        "date": "2025-05-20",
+        "dayOfWeek": "Tuesday",
+        "activity": "Rest",
+        "details": "Missed due to sickness",
+        "pace_guide": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-05-21",
+        "dayOfWeek": "Wednesday",
+        "activity": "Rest",
+        "details": "Missed due to sickness",
+        "pace_guide": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-05-22",
+        "dayOfWeek": "Thursday",
+        "activity": "Rest",
+        "details": "Missed due to sickness",
+        "pace_guide": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-05-23",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "Missed due to sickness",
+        "notes": ""
+      },
+      {
+        "date": "2025-05-24",
+        "dayOfWeek": "Saturday",
+        "activity": "Rest",
+        "details": "Missed due to sickness",
+        "pace_guide": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-05-25",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run",
+        "details": "5km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": "Completed. Feeling better."
+      }
     ]
   },
   {
     "week": 4,
     "startDate": "2025-05-26",
-    "focus": "Recovery Week",
-    "totalWeeklyKm": 28.0,
+    "focus": "Getting Back on Track - Mileage & Intensity",
+    "totalWeeklyKm": 43.0,
     "days": [
-      { "date": "2025-05-26", "dayOfWeek": "Monday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-05-27", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "5km", "pace_guide": "6:00 - 6:40 min/km", "notes": "Very light effort." },
-      { "date": "2025-05-28", "dayOfWeek": "Wednesday", "activity": "Easy Run", "details": "6km", "pace_guide": "6:00 - 6:40 min/km", "notes": "Keep it relaxed." },
-      { "date": "2025-05-29", "dayOfWeek": "Thursday", "activity": "Easy Run", "details": "5km with 4-6 x 100m strides", "pace_guide": "Run: Easy (6:00 - 6:40 min/km). Strides: Fast but relaxed (3:45 - 4:15 min/km)", "notes": "" },
-      { "date": "2025-05-30", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-05-31", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "12km", "pace_guide": "6:00 - 6:40 min/km", "notes": "Reduced distance." },
-      { "date": "2025-06-01", "dayOfWeek": "Sunday", "activity": "Rest or XT", "details": "30 min light XT", "notes": "" }
+      {
+        "date": "2025-05-26",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30 min light XT or Rest",
+        "notes": "Ease back in."
+      },
+      {
+        "date": "2025-05-27",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": "Focus on feel."
+      },
+      {
+        "date": "2025-05-28",
+        "dayOfWeek": "Wednesday",
+        "activity": "Easy Run",
+        "details": "8km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": "Building consistency."
+      },
+      {
+        "date": "2025-05-29",
+        "dayOfWeek": "Thursday",
+        "activity": "Intervals",
+        "details": "10 min warm-up. 8 x 400m with 400m jog recovery. 10 min cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). 400m Repeats: 4:20 - 4:35 min/km. Recovery Jogs: Very slow.",
+        "notes": "Reintroducing speed work."
+      },
+      {
+        "date": "2025-05-30",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-05-31",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "16km",
+        "pace_guide": "5:50 - 6:30 min/km. Option: Last 2-3km @ MP (5:41 min/km) if feeling good.",
+        "notes": "Building endurance back."
+      },
+      {
+        "date": "2025-06-01",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or Rest",
+        "details": "6km or Rest",
+        "pace_guide": "If running: 5:50 - 6:30 min/km",
+        "notes": ""
+      }
     ]
   },
   {
@@ -65,13 +253,60 @@
     "focus": "Building Endurance & Speed",
     "totalWeeklyKm": 44.6,
     "days": [
-      { "date": "2025-06-02", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30-45 min cross-training", "notes": "" },
-      { "date": "2025-06-03", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-06-04", "dayOfWeek": "Wednesday", "activity": "Marathon Pace Run", "details": "2km warm-up. 5km @ MP. 1km cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Main Set: 5:41 min/km.", "notes": "Focus on MP rhythm." },
-      { "date": "2025-06-05", "dayOfWeek": "Thursday", "activity": "Intervals", "details": "10 min warm-up. 5 x 800m with 400m jog recovery. 10 min cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). 800m Repeats: 4:30 - 4:45 min/km (3:36-3:48 per 800m). Recovery Jogs: Very slow.", "notes": "" },
-      { "date": "2025-06-06", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-06-07", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "18km with 5km @ MP", "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segment: 5:41 min/km (e.g., km 10-15).", "notes": "Integrate MP into long run." },
-      { "date": "2025-06-08", "dayOfWeek": "Sunday", "activity": "Easy Run or XT", "details": "6km or 30 min XT", "pace_guide": "If running: 5:50 - 6:30 min/km", "notes": "" }
+      {
+        "date": "2025-06-02",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30-45 min cross-training",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-03",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-04",
+        "dayOfWeek": "Wednesday",
+        "activity": "Marathon Pace Run",
+        "details": "2km warm-up. 5km @ MP. 1km cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Main Set: 5:41 min/km.",
+        "notes": "Focus on MP rhythm."
+      },
+      {
+        "date": "2025-06-05",
+        "dayOfWeek": "Thursday",
+        "activity": "Intervals",
+        "details": "10 min warm-up. 5 x 800m with 400m jog recovery. 10 min cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). 800m Repeats: 4:30 - 4:45 min/km (3:36-3:48 per 800m). Recovery Jogs: Very slow.",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-06",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-07",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "18km with 5km @ MP",
+        "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segment: 5:41 min/km (e.g., km 10-15).",
+        "notes": "Integrate MP into long run."
+      },
+      {
+        "date": "2025-06-08",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or XT",
+        "details": "6km or 30 min XT",
+        "pace_guide": "If running: 5:50 - 6:30 min/km",
+        "notes": ""
+      }
     ]
   },
   {
@@ -80,13 +315,60 @@
     "focus": "Increasing MP Volume",
     "totalWeeklyKm": 41.0,
     "days": [
-      { "date": "2025-06-09", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30-45 min cross-training", "notes": "" },
-      { "date": "2025-06-10", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "8km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-06-11", "dayOfWeek": "Wednesday", "activity": "Tempo Run", "details": "10 min warm-up. 25 min Tempo. 10 min cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Tempo: 5:10 - 5:30 min/km.", "notes": "" },
-      { "date": "2025-06-12", "dayOfWeek": "Thursday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-06-13", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-06-14", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "20km with 2x3km @ MP", "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segments: 5:41 min/km (e.g., km 8-11 & 14-17), with 1-2km easy between.", "notes": "Practice fueling." },
-      { "date": "2025-06-15", "dayOfWeek": "Sunday", "activity": "Easy Run or Rest", "details": "6km or Rest", "pace_guide": "If running: 5:50 - 6:30 min/km", "notes": "" }
+      {
+        "date": "2025-06-09",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30-45 min cross-training",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-10",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "8km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-11",
+        "dayOfWeek": "Wednesday",
+        "activity": "Tempo Run",
+        "details": "10 min warm-up. 25 min Tempo. 10 min cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Tempo: 5:10 - 5:30 min/km.",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-12",
+        "dayOfWeek": "Thursday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-13",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-14",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "20km with 2x3km @ MP",
+        "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segments: 5:41 min/km (e.g., km 8-11 & 14-17), with 1-2km easy between.",
+        "notes": "Practice fueling."
+      },
+      {
+        "date": "2025-06-15",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or Rest",
+        "details": "6km or Rest",
+        "pace_guide": "If running: 5:50 - 6:30 min/km",
+        "notes": ""
+      }
     ]
   },
   {
@@ -95,13 +377,60 @@
     "focus": "Threshold & Longer MP Segments",
     "totalWeeklyKm": 48.0,
     "days": [
-      { "date": "2025-06-16", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30-45 min cross-training", "notes": "" },
-      { "date": "2025-06-17", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "8km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-06-18", "dayOfWeek": "Wednesday", "activity": "Threshold Intervals", "details": "10 min warm-up. 3 x 10 min @ Threshold (or 3 x 2km). 5 min jog recovery. 10 min cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Threshold: 4:45 - 5:00 min/km. Recovery Jogs: Very slow.", "notes": "Sustained harder efforts." },
-      { "date": "2025-06-19", "dayOfWeek": "Thursday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-06-20", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-06-21", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "22km with 8km @ MP", "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segment: 5:41 min/km (e.g., km 12-20).", "notes": "Focus on even MP pacing." },
-      { "date": "2025-06-22", "dayOfWeek": "Sunday", "activity": "Easy Run or XT", "details": "5km or 40 min XT", "pace_guide": "If running: 5:50 - 6:30 min/km", "notes": "" }
+      {
+        "date": "2025-06-16",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30-45 min cross-training",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-17",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "8km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-18",
+        "dayOfWeek": "Wednesday",
+        "activity": "Threshold Intervals",
+        "details": "10 min warm-up. 3 x 10 min @ Threshold (or 3 x 2km). 5 min jog recovery. 10 min cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Threshold: 4:45 - 5:00 min/km. Recovery Jogs: Very slow.",
+        "notes": "Sustained harder efforts."
+      },
+      {
+        "date": "2025-06-19",
+        "dayOfWeek": "Thursday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-20",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-21",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "22km with 8km @ MP",
+        "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segment: 5:41 min/km (e.g., km 12-20).",
+        "notes": "Focus on even MP pacing."
+      },
+      {
+        "date": "2025-06-22",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or XT",
+        "details": "5km or 40 min XT",
+        "pace_guide": "If running: 5:50 - 6:30 min/km",
+        "notes": ""
+      }
     ]
   },
   {
@@ -110,13 +439,59 @@
     "focus": "Recovery Week",
     "totalWeeklyKm": 35.0,
     "days": [
-      { "date": "2025-06-23", "dayOfWeek": "Monday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-06-24", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "6km", "pace_guide": "6:00 - 6:40 min/km", "notes": "" },
-      { "date": "2025-06-25", "dayOfWeek": "Wednesday", "activity": "Easy Run", "details": "7km", "pace_guide": "6:00 - 6:40 min/km", "notes": "" },
-      { "date": "2025-06-26", "dayOfWeek": "Thursday", "activity": "Easy Run", "details": "6km with 4-6 x 100m strides", "pace_guide": "Run: Easy (6:00 - 6:40 min/km). Strides: Fast but relaxed (3:45 - 4:15 min/km)", "notes": "" },
-      { "date": "2025-06-27", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-06-28", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "16km", "pace_guide": "6:00 - 6:40 min/km", "notes": "Reduced distance." },
-      { "date": "2025-06-29", "dayOfWeek": "Sunday", "activity": "Rest or XT", "details": "30 min light XT", "notes": "" }
+      {
+        "date": "2025-06-23",
+        "dayOfWeek": "Monday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-24",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "6km",
+        "pace_guide": "6:00 - 6:40 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-25",
+        "dayOfWeek": "Wednesday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "6:00 - 6:40 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-26",
+        "dayOfWeek": "Thursday",
+        "activity": "Easy Run",
+        "details": "6km with 4-6 x 100m strides",
+        "pace_guide": "Run: Easy (6:00 - 6:40 min/km). Strides: Fast but relaxed (3:45 - 4:15 min/km)",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-27",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-06-28",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "16km",
+        "pace_guide": "6:00 - 6:40 min/km",
+        "notes": "Reduced distance."
+      },
+      {
+        "date": "2025-06-29",
+        "dayOfWeek": "Sunday",
+        "activity": "Rest or XT",
+        "details": "30 min light XT",
+        "notes": ""
+      }
     ]
   },
   {
@@ -125,13 +500,60 @@
     "focus": "Peak Building - Marathon Specificity",
     "totalWeeklyKm": 50.0,
     "days": [
-      { "date": "2025-06-30", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30-45 min cross-training", "notes": "" },
-      { "date": "2025-07-01", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "8km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-07-02", "dayOfWeek": "Wednesday", "activity": "Marathon Pace Run", "details": "2km warm-up. 10km @ MP. 2km cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Main Set: 5:41 min/km.", "notes": "Solid MP block." },
-      { "date": "2025-07-03", "dayOfWeek": "Thursday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-07-04", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-07-05", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "25km with 10km @ MP", "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segment: 5:41 min/km (e.g., km 13-23).", "notes": "Good test of MP endurance." },
-      { "date": "2025-07-06", "dayOfWeek": "Sunday", "activity": "Easy Run or XT", "details": "6km or 40 min XT", "pace_guide": "If running: 5:50 - 6:30 min/km", "notes": "" }
+      {
+        "date": "2025-06-30",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30-45 min cross-training",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-01",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "8km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-02",
+        "dayOfWeek": "Wednesday",
+        "activity": "Marathon Pace Run",
+        "details": "2km warm-up. 10km @ MP. 2km cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Main Set: 5:41 min/km.",
+        "notes": "Solid MP block."
+      },
+      {
+        "date": "2025-07-03",
+        "dayOfWeek": "Thursday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-04",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-05",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "25km with 10km @ MP",
+        "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segment: 5:41 min/km (e.g., km 13-23).",
+        "notes": "Good test of MP endurance."
+      },
+      {
+        "date": "2025-07-06",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or XT",
+        "details": "6km or 40 min XT",
+        "pace_guide": "If running: 5:50 - 6:30 min/km",
+        "notes": ""
+      }
     ]
   },
   {
@@ -140,13 +562,60 @@
     "focus": "Peak Building - Strength and Speed",
     "totalWeeklyKm": 55.4,
     "days": [
-      { "date": "2025-07-07", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30-45 min cross-training", "notes": "" },
-      { "date": "2025-07-08", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "8km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-07-09", "dayOfWeek": "Wednesday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-07-10", "dayOfWeek": "Thursday", "activity": "Intervals (VO2 Max)", "details": "10 min warm-up. 5 x 1000m with 600m jog recovery. 10 min cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). 1000m Repeats: 4:30 - 4:45 min/km. Recovery Jogs: Very slow.", "notes": "Strong effort." },
-      { "date": "2025-07-11", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-07-12", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "28km with 12km @ MP", "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segment: 5:41 min/km (e.g., km 14-26). Option: Last 2-3km slightly faster if feeling very good.", "notes": "Focus on hydration and nutrition." },
-      { "date": "2025-07-13", "dayOfWeek": "Sunday", "activity": "Easy Run or Rest", "details": "5km or Rest", "pace_guide": "If running: 5:50 - 6:30 min/km", "notes": "" }
+      {
+        "date": "2025-07-07",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30-45 min cross-training",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-08",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "8km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-09",
+        "dayOfWeek": "Wednesday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-10",
+        "dayOfWeek": "Thursday",
+        "activity": "Intervals (VO2 Max)",
+        "details": "10 min warm-up. 5 x 1000m with 600m jog recovery. 10 min cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). 1000m Repeats: 4:30 - 4:45 min/km. Recovery Jogs: Very slow.",
+        "notes": "Strong effort."
+      },
+      {
+        "date": "2025-07-11",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-12",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "28km with 12km @ MP",
+        "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segment: 5:41 min/km (e.g., km 14-26). Option: Last 2-3km slightly faster if feeling very good.",
+        "notes": "Focus on hydration and nutrition."
+      },
+      {
+        "date": "2025-07-13",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or Rest",
+        "details": "5km or Rest",
+        "pace_guide": "If running: 5:50 - 6:30 min/km",
+        "notes": ""
+      }
     ]
   },
   {
@@ -155,13 +624,60 @@
     "focus": "Peak Building - Endurance Challenge",
     "totalWeeklyKm": 51.0,
     "days": [
-      { "date": "2025-07-14", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30-45 min cross-training", "notes": "" },
-      { "date": "2025-07-15", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "8km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-07-16", "dayOfWeek": "Wednesday", "activity": "Tempo Run", "details": "10 min warm-up. 2 x 15 min Tempo with 5 min jog recovery. 10 min cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Tempo: 5:10 - 5:30 min/km.", "notes": "Sustained effort." },
-      { "date": "2025-07-17", "dayOfWeek": "Thursday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-07-18", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-07-19", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "30km with 15km @ MP (broken)", "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segments: 3 x 5km @ 5:41 min/km, with 1-2km easy jog/float in between.", "notes": "Simulate race day fueling." },
-      { "date": "2025-07-20", "dayOfWeek": "Sunday", "activity": "Easy Run or XT", "details": "6km or 40 min XT", "pace_guide": "If running: 5:50 - 6:30 min/km", "notes": "" }
+      {
+        "date": "2025-07-14",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30-45 min cross-training",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-15",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "8km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-16",
+        "dayOfWeek": "Wednesday",
+        "activity": "Tempo Run",
+        "details": "10 min warm-up. 2 x 15 min Tempo with 5 min jog recovery. 10 min cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Tempo: 5:10 - 5:30 min/km.",
+        "notes": "Sustained effort."
+      },
+      {
+        "date": "2025-07-17",
+        "dayOfWeek": "Thursday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-18",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-19",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "30km with 15km @ MP (broken)",
+        "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segments: 3 x 5km @ 5:41 min/km, with 1-2km easy jog/float in between.",
+        "notes": "Simulate race day fueling."
+      },
+      {
+        "date": "2025-07-20",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or XT",
+        "details": "6km or 40 min XT",
+        "pace_guide": "If running: 5:50 - 6:30 min/km",
+        "notes": ""
+      }
     ]
   },
   {
@@ -170,13 +686,59 @@
     "focus": "Slight Recovery/Adaptation Week",
     "totalWeeklyKm": 41.0,
     "days": [
-      { "date": "2025-07-21", "dayOfWeek": "Monday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-07-22", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "7km", "pace_guide": "6:00 - 6:40 min/km", "notes": "" },
-      { "date": "2025-07-23", "dayOfWeek": "Wednesday", "activity": "Easy Run", "details": "8km", "pace_guide": "6:00 - 6:40 min/km", "notes": "" },
-      { "date": "2025-07-24", "dayOfWeek": "Thursday", "activity": "Easy Run with Strides", "details": "6km with 4-6 x 100m strides", "pace_guide": "Run: Easy (6:00 - 6:40 min/km). Strides: Fast but relaxed (3:45 - 4:15 min/km)", "notes": "" },
-      { "date": "2025-07-25", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-07-26", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "20km with 5km @ MP", "pace_guide": "Easy: 6:00-6:40 min/km. MP segment: 5:41 min/km.", "notes": "Reduced overall volume." },
-      { "date": "2025-07-27", "dayOfWeek": "Sunday", "activity": "Rest or XT", "details": "30 min light XT", "notes": "" }
+      {
+        "date": "2025-07-21",
+        "dayOfWeek": "Monday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-22",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "6:00 - 6:40 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-23",
+        "dayOfWeek": "Wednesday",
+        "activity": "Easy Run",
+        "details": "8km",
+        "pace_guide": "6:00 - 6:40 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-24",
+        "dayOfWeek": "Thursday",
+        "activity": "Easy Run with Strides",
+        "details": "6km with 4-6 x 100m strides",
+        "pace_guide": "Run: Easy (6:00 - 6:40 min/km). Strides: Fast but relaxed (3:45 - 4:15 min/km)",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-25",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-26",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "20km with 5km @ MP",
+        "pace_guide": "Easy: 6:00-6:40 min/km. MP segment: 5:41 min/km.",
+        "notes": "Reduced overall volume."
+      },
+      {
+        "date": "2025-07-27",
+        "dayOfWeek": "Sunday",
+        "activity": "Rest or XT",
+        "details": "30 min light XT",
+        "notes": ""
+      }
     ]
   },
   {
@@ -185,13 +747,60 @@
     "focus": "Peak Week 1 - Longest MP Run",
     "totalWeeklyKm": 66.0,
     "days": [
-      { "date": "2025-07-28", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30 min light cross-training", "notes": "" },
-      { "date": "2025-07-29", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "8km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-07-30", "dayOfWeek": "Wednesday", "activity": "Marathon Pace Run", "details": "2km warm-up. 14km @ MP. 2km cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Main Set: 5:41 min/km.", "notes": "Longest continuous MP run." },
-      { "date": "2025-07-31", "dayOfWeek": "Thursday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-08-01", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-08-02", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "32km with 16km @ MP (broken)", "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segments: 2 x 8km @ 5:41 min/km, with 2km easy jog/float in between.", "notes": "Simulate race conditions." },
-      { "date": "2025-08-03", "dayOfWeek": "Sunday", "activity": "Easy Run or XT", "details": "5km or 30 min XT", "pace_guide": "If running: 6:00 - 6:40 min/km", "notes": "Focus on recovery." }
+      {
+        "date": "2025-07-28",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30 min light cross-training",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-29",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "8km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-07-30",
+        "dayOfWeek": "Wednesday",
+        "activity": "Marathon Pace Run",
+        "details": "2km warm-up. 14km @ MP. 2km cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Main Set: 5:41 min/km.",
+        "notes": "Longest continuous MP run."
+      },
+      {
+        "date": "2025-07-31",
+        "dayOfWeek": "Thursday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-01",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-02",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "32km with 16km @ MP (broken)",
+        "pace_guide": "Easy portions: 5:50 - 6:30 min/km. MP segments: 2 x 8km @ 5:41 min/km, with 2km easy jog/float in between.",
+        "notes": "Simulate race conditions."
+      },
+      {
+        "date": "2025-08-03",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or XT",
+        "details": "5km or 30 min XT",
+        "pace_guide": "If running: 6:00 - 6:40 min/km",
+        "notes": "Focus on recovery."
+      }
     ]
   },
   {
@@ -200,13 +809,60 @@
     "focus": "Peak Week 2 - Longest Run, Fast Finish",
     "totalWeeklyKm": 64.0,
     "days": [
-      { "date": "2025-08-04", "dayOfWeek": "Monday", "activity": "Rest or XT", "details": "30 min light cross-training", "notes": "" },
-      { "date": "2025-08-05", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "8km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-08-06", "dayOfWeek": "Wednesday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-08-07", "dayOfWeek": "Thursday", "activity": "Intervals (Threshold/MP mix)", "details": "10 min warm-up. 2 x (3km @ MP, 1km @ Threshold). 2 min jog recovery between sets. 10 min cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). MP: 5:41 min/km. Threshold: 4:45 - 5:00 min/km.", "notes": "Race specific." },
-      { "date": "2025-08-08", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-08-09", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "34km. First 28km easy, last 6km progressive finish (MP down to Tempo).", "pace_guide": "First 28km: 5:50 - 6:30 min/km. Km 29-30 @ MP (5:41). Km 31-32 @ slightly faster than MP (5:30). Km 33-34 @ Tempo (5:10-5:20).", "notes": "THE longest run. Practice mental toughness." },
-      { "date": "2025-08-10", "dayOfWeek": "Sunday", "activity": "Easy Run or Rest", "details": "5km or Rest. Very important to recover.", "pace_guide": "If running: 6:00 - 6:40 min/km", "notes": "" }
+      {
+        "date": "2025-08-04",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or XT",
+        "details": "30 min light cross-training",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-05",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "8km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-06",
+        "dayOfWeek": "Wednesday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-07",
+        "dayOfWeek": "Thursday",
+        "activity": "Intervals (Threshold/MP mix)",
+        "details": "10 min warm-up. 2 x (3km @ MP, 1km @ Threshold). 2 min jog recovery between sets. 10 min cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). MP: 5:41 min/km. Threshold: 4:45 - 5:00 min/km.",
+        "notes": "Race specific."
+      },
+      {
+        "date": "2025-08-08",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-09",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "34km. First 28km easy, last 6km progressive finish (MP down to Tempo).",
+        "pace_guide": "First 28km: 5:50 - 6:30 min/km. Km 29-30 @ MP (5:41). Km 31-32 @ slightly faster than MP (5:30). Km 33-34 @ Tempo (5:10-5:20).",
+        "notes": "THE longest run. Practice mental toughness."
+      },
+      {
+        "date": "2025-08-10",
+        "dayOfWeek": "Sunday",
+        "activity": "Easy Run or Rest",
+        "details": "5km or Rest. Very important to recover.",
+        "pace_guide": "If running: 6:00 - 6:40 min/km",
+        "notes": ""
+      }
     ]
   },
   {
@@ -215,13 +871,59 @@
     "focus": "Gentle Taper Start - Maintaining Some Quality",
     "totalWeeklyKm": 48.0,
     "days": [
-      { "date": "2025-08-11", "dayOfWeek": "Monday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-08-12", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "7km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-08-13", "dayOfWeek": "Wednesday", "activity": "Marathon Pace Run", "details": "2km warm-up. 8km @ MP. 1km cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Main Set: 5:41 min/km.", "notes": "Maintain feel for MP." },
-      { "date": "2025-08-14", "dayOfWeek": "Thursday", "activity": "Easy Run", "details": "6km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-08-15", "dayOfWeek": "Friday", "activity": "Rest or very light XT", "details": "20 min walk/cycle", "notes": "" },
-      { "date": "2025-08-16", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "22km, mostly easy.", "pace_guide": "6:00 - 6:40 min/km. Option: 3-4km @ MP in middle if feeling good.", "notes": "Volume reduction begins." },
-      { "date": "2025-08-17", "dayOfWeek": "Sunday", "activity": "Rest", "details": "", "notes": "" }
+      {
+        "date": "2025-08-11",
+        "dayOfWeek": "Monday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-12",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "7km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-13",
+        "dayOfWeek": "Wednesday",
+        "activity": "Marathon Pace Run",
+        "details": "2km warm-up. 8km @ MP. 1km cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). Main Set: 5:41 min/km.",
+        "notes": "Maintain feel for MP."
+      },
+      {
+        "date": "2025-08-14",
+        "dayOfWeek": "Thursday",
+        "activity": "Easy Run",
+        "details": "6km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-15",
+        "dayOfWeek": "Friday",
+        "activity": "Rest or very light XT",
+        "details": "20 min walk/cycle",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-16",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "22km, mostly easy.",
+        "pace_guide": "6:00 - 6:40 min/km. Option: 3-4km @ MP in middle if feeling good.",
+        "notes": "Volume reduction begins."
+      },
+      {
+        "date": "2025-08-17",
+        "dayOfWeek": "Sunday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      }
     ]
   },
   {
@@ -230,13 +932,59 @@
     "focus": "Taper Week 2 (12-14 days out) - Sharpening",
     "totalWeeklyKm": 34.0,
     "days": [
-      { "date": "2025-08-18", "dayOfWeek": "Monday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-08-19", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "6km", "pace_guide": "5:50 - 6:30 min/km", "notes": "" },
-      { "date": "2025-08-20", "dayOfWeek": "Wednesday", "activity": "Easy Run with MP", "details": "2km warm-up. 5km @ MP. 1km cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). MP Segment: 5:41 min/km.", "notes": "Short burst at race pace." },
-      { "date": "2025-08-21", "dayOfWeek": "Thursday", "activity": "Easy Run", "details": "5km with 4x100m strides", "pace_guide": "Run: Easy (5:50 - 6:30 min/km). Strides: Fast but relaxed (3:45 - 4:15 min/km)", "notes": "Stay loose." },
-      { "date": "2025-08-22", "dayOfWeek": "Friday", "activity": "Rest", "details": "", "notes": "Focus on hydration and nutrition." },
-      { "date": "2025-08-23", "dayOfWeek": "Saturday", "activity": "Long Run", "details": "15km, easy.", "pace_guide": "6:00 - 6:40 min/km", "notes": "Confidence booster." },
-      { "date": "2025-08-24", "dayOfWeek": "Sunday", "activity": "Rest", "details": "", "notes": "" }
+      {
+        "date": "2025-08-18",
+        "dayOfWeek": "Monday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-19",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "6km",
+        "pace_guide": "5:50 - 6:30 min/km",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-20",
+        "dayOfWeek": "Wednesday",
+        "activity": "Easy Run with MP",
+        "details": "2km warm-up. 5km @ MP. 1km cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (5:50 - 6:30 min/km). MP Segment: 5:41 min/km.",
+        "notes": "Short burst at race pace."
+      },
+      {
+        "date": "2025-08-21",
+        "dayOfWeek": "Thursday",
+        "activity": "Easy Run",
+        "details": "5km with 4x100m strides",
+        "pace_guide": "Run: Easy (5:50 - 6:30 min/km). Strides: Fast but relaxed (3:45 - 4:15 min/km)",
+        "notes": "Stay loose."
+      },
+      {
+        "date": "2025-08-22",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "",
+        "notes": "Focus on hydration and nutrition."
+      },
+      {
+        "date": "2025-08-23",
+        "dayOfWeek": "Saturday",
+        "activity": "Long Run",
+        "details": "15km, easy.",
+        "pace_guide": "6:00 - 6:40 min/km",
+        "notes": "Confidence booster."
+      },
+      {
+        "date": "2025-08-24",
+        "dayOfWeek": "Sunday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      }
     ]
   },
   {
@@ -245,13 +993,59 @@
     "focus": "Final Taper (7-10 days out)",
     "totalWeeklyKm": 23.0,
     "days": [
-      { "date": "2025-08-25", "dayOfWeek": "Monday", "activity": "Rest", "details": "", "notes": "" },
-      { "date": "2025-08-26", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "5km", "pace_guide": "6:00 - 6:40 min/km (very easy)", "notes": "Very easy." },
-      { "date": "2025-08-27", "dayOfWeek": "Wednesday", "activity": "Easy Run with MP & Strides", "details": "1km warm-up. 3km @ MP. 2-3 strides. 1km cool-down.", "pace_guide": "Warm-up/Cool-down: Easy (6:00 - 6:40 min/km). MP Segment: 5:41 min/km. Strides: Fast but relaxed (3:45 - 4:15 min/km)", "notes": "Legs fresh." },
-      { "date": "2025-08-28", "dayOfWeek": "Thursday", "activity": "Rest or Very Light Jog", "details": "2-3km very slow jog or complete rest", "pace_guide": "If jogging: Very easy (6:40 min/km or slower)", "notes": "Prepare race gear." },
-      { "date": "2025-08-29", "dayOfWeek": "Friday", "activity": "Rest", "details": "Final prep, hydrate, eat well.", "notes": "Visualize success!" },
-      { "date": "2025-08-30", "dayOfWeek": "Saturday", "activity": "Easy Run", "details": "8km", "pace_guide": "6:00 - 6:40 min/km", "notes": "Final 'longish' run before race week."},
-      { "date": "2025-08-31", "dayOfWeek": "Sunday", "activity": "Rest", "details": "", "notes": ""}
+      {
+        "date": "2025-08-25",
+        "dayOfWeek": "Monday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      },
+      {
+        "date": "2025-08-26",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "5km",
+        "pace_guide": "6:00 - 6:40 min/km (very easy)",
+        "notes": "Very easy."
+      },
+      {
+        "date": "2025-08-27",
+        "dayOfWeek": "Wednesday",
+        "activity": "Easy Run with MP & Strides",
+        "details": "1km warm-up. 3km @ MP. 2-3 strides. 1km cool-down.",
+        "pace_guide": "Warm-up/Cool-down: Easy (6:00 - 6:40 min/km). MP Segment: 5:41 min/km. Strides: Fast but relaxed (3:45 - 4:15 min/km)",
+        "notes": "Legs fresh."
+      },
+      {
+        "date": "2025-08-28",
+        "dayOfWeek": "Thursday",
+        "activity": "Rest or Very Light Jog",
+        "details": "2-3km very slow jog or complete rest",
+        "pace_guide": "If jogging: Very easy (6:40 min/km or slower)",
+        "notes": "Prepare race gear."
+      },
+      {
+        "date": "2025-08-29",
+        "dayOfWeek": "Friday",
+        "activity": "Rest",
+        "details": "Final prep, hydrate, eat well.",
+        "notes": "Visualize success!"
+      },
+      {
+        "date": "2025-08-30",
+        "dayOfWeek": "Saturday",
+        "activity": "Easy Run",
+        "details": "8km",
+        "pace_guide": "6:00 - 6:40 min/km",
+        "notes": "Final 'longish' run before race week."
+      },
+      {
+        "date": "2025-08-31",
+        "dayOfWeek": "Sunday",
+        "activity": "Rest",
+        "details": "",
+        "notes": ""
+      }
     ]
   },
   {
@@ -260,14 +1054,59 @@
     "focus": "RACE WEEK!",
     "totalWeeklyKm": 51.2,
     "days": [
-      { "date": "2025-09-01", "dayOfWeek": "Monday", "activity": "Rest or Very Light Jog", "details": "3km very easy jog if feeling restless, otherwise rest.", "pace_guide": "If jogging: Very easy (6:40 min/km or slower)", "notes": "Focus on sleep and nutrition." },
-      { "date": "2025-09-02", "dayOfWeek": "Tuesday", "activity": "Easy Run", "details": "4km with 2-3 x 100m strides", "pace_guide": "Run: Easy (6:00 - 6:40 min/km). Strides: Fast but relaxed (3:45 - 4:15 min/km)", "notes": "Keep legs moving, but very light." },
-      { "date": "2025-09-03", "dayOfWeek": "Wednesday", "activity": "Rest", "details": "", "notes": "Hydrate, relax. Check race day logistics." },
-      { "date": "2025-09-04", "dayOfWeek": "Thursday", "activity": "Very Light Jog / Shakeout", "details": "2km very easy, 2 x 100m strides", "pace_guide": "Jog: Very easy (6:40 min/km or slower). Strides: Fast but relaxed (3:45 - 4:15 min/km)", "notes": "Stay loose. Don't do too much." },
-      { "date": "2025-09-05", "dayOfWeek": "Friday", "activity": "COMPLETE REST", "details": "Eat well (focus on carbs), hydrate. Lay out race kit.", "notes": "Believe in your training!" },
-      { "date": "2025-09-06", "dayOfWeek": "Saturday", "activity": "MARATHON DAY!", "details": "42.2km. Goal: Sub 4 hours! Trust your plan.", "pace_guide": "Target: 5:41 min/km", "notes": "Enjoy the experience!" },
-      { "date": "2025-09-07", "dayOfWeek": "Sunday", "activity": "Active Recovery / CELEBRATE!", "details": "Short walk if you feel up to it. Bask in the glory!", "notes": "You did it!" }
+      {
+        "date": "2025-09-01",
+        "dayOfWeek": "Monday",
+        "activity": "Rest or Very Light Jog",
+        "details": "3km very easy jog if feeling restless, otherwise rest.",
+        "pace_guide": "If jogging: Very easy (6:40 min/km or slower)",
+        "notes": "Focus on sleep and nutrition."
+      },
+      {
+        "date": "2025-09-02",
+        "dayOfWeek": "Tuesday",
+        "activity": "Easy Run",
+        "details": "4km with 2-3 x 100m strides",
+        "pace_guide": "Run: Easy (6:00 - 6:40 min/km). Strides: Fast but relaxed (3:45 - 4:15 min/km)",
+        "notes": "Keep legs moving, but very light."
+      },
+      {
+        "date": "2025-09-03",
+        "dayOfWeek": "Wednesday",
+        "activity": "Rest",
+        "details": "",
+        "notes": "Hydrate, relax. Check race day logistics."
+      },
+      {
+        "date": "2025-09-04",
+        "dayOfWeek": "Thursday",
+        "activity": "Very Light Jog / Shakeout",
+        "details": "2km very easy, 2 x 100m strides",
+        "pace_guide": "Jog: Very easy (6:40 min/km or slower). Strides: Fast but relaxed (3:45 - 4:15 min/km)",
+        "notes": "Stay loose. Don't do too much."
+      },
+      {
+        "date": "2025-09-05",
+        "dayOfWeek": "Friday",
+        "activity": "COMPLETE REST",
+        "details": "Eat well (focus on carbs), hydrate. Lay out race kit.",
+        "notes": "Believe in your training!"
+      },
+      {
+        "date": "2025-09-06",
+        "dayOfWeek": "Saturday",
+        "activity": "MARATHON DAY!",
+        "details": "42.2km. Goal: Sub 4 hours! Trust your plan.",
+        "pace_guide": "Target: 5:41 min/km",
+        "notes": "Enjoy the experience!"
+      },
+      {
+        "date": "2025-09-07",
+        "dayOfWeek": "Sunday",
+        "activity": "Active Recovery / CELEBRATE!",
+        "details": "Short walk if you feel up to it. Bask in the glory!",
+        "notes": "You did it!"
+      }
     ]
   }
 ]
-
