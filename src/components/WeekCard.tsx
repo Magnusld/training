@@ -48,12 +48,11 @@ const DayDisplay: React.FC<{ day: TrainingDay }> = ({ day }) => {
   );
 };
 
-const WeekCard: React.FC<WeekCardProps> = ({ weekData, isCurrentWeekView }) => {
+const WeekCard: React.FC<WeekCardProps> = ({ weekData }) => {
   return (
     <div
-      className={`mb-8 p-4 rounded-lg shadow-xl ${
-        isCurrentWeekView ? "bg-gray-800" : "bg-gray-750 border border-gray-700"
-      }`}
+      className={`mb-8 p-4 rounded-lg shadow-xl 
+         bg-gray-750 border border-gray-700`}
     >
       <div className={"flex flex-row justify-between"}>
         <h3 className="text-2xl font-bold mb-1 text-indigo-400">
