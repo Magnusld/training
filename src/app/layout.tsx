@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 // Define viewport settings for PWA behavior on mobile
 export const viewport: Viewport = {
-  themeColor: '#1f2937', // Matches manifest.json theme_color
+  themeColor: '#1a472a', // Updated to match new accent color
   // Ensure common viewport settings for responsiveness
   width: 'device-width',
   initialScale: 1,
@@ -32,7 +32,7 @@ export default function RootLayout({
     <html lang="en">
       
       <body
-        className={`${inter.className} bg-gray-900 text-white min-h-screen`}
+        className={`${inter.className} bg-background text-foreground min-h-screen`}
       >
         <main className="container mx-auto p-4 max-w-2xl">
           {children}

@@ -10,29 +10,27 @@ interface TodayTrainingProps {
 const TodayTraining: React.FC<TodayTrainingProps> = ({ trainingDay, currentDate }) => {
   if (!trainingDay) {
     return (
-      <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-        {/* Corrected: Escaped apostrophe */}
-        <h2 className="text-2xl font-bold mb-2 text-blue-400">Today&apos;s Plan ({formatDateString(currentDate)})</h2>
-        {/* Corrected: Escaped apostrophe */}
-        <p className="text-lg">No specific training scheduled for today. Perhaps it&apos;s a rest day or time for some light cross-training!</p>
+      <div className="bg-surface p-6 rounded-lg shadow-lg text-center border border-border">
+        <h2 className="text-2xl font-bold mb-2 text-accent">Today&apos;s Plan ({formatDateString(currentDate)})</h2>
+        <p className="text-lg text-muted">No specific training scheduled for today. Perhaps it&apos;s a rest day or time for some light cross-training!</p>
       </div>
     );
   }
 
   return (
-    <div className="bg-gray-800 mt-2 p-6 rounded-lg shadow-lg">
-      <h2 className="text-3xl font-bold mb-3 text-blue-400">
-        Today: {formatDateString(trainingDay.date)} 
+    <div className="bg-surface mt-2 p-6 rounded-lg shadow-lg border border-border">
+      <h2 className="text-3xl font-bold mb-3 text-accent">
+        Today: {formatDateString(trainingDay.date)}
       </h2>
       <div className="mb-4">
-        <p className="text-xl font-semibold text-yellow-400">{trainingDay.activity}</p>
-        <p className="text-lg text-gray-300">{trainingDay.details}</p>
+        <p className="text-xl font-semibold text-accent-light">{trainingDay.activity}</p>
+        <p className="text-lg text-foreground">{trainingDay.details}</p>
       </div>
       {trainingDay.notes && (
         <div>
-          <p className="text-sm font-semibold text-green-400">Notes:</p>
-          <p className="text-gray-400 italic">{trainingDay.notes}</p>
-          {trainingDay.pace_guide && <p className="text-xs italic mt-1 text-cyan-400">Pace: {trainingDay.pace_guide}</p>}
+          <p className="text-sm font-semibold text-success">Notes:</p>
+          <p className="text-muted italic">{trainingDay.notes}</p>
+          {trainingDay.pace_guide && <p className="text-xs italic mt-1 text-accent-lighter">Pace: {trainingDay.pace_guide}</p>}
         </div>
       )}
     </div>

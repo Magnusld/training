@@ -21,7 +21,7 @@ export default async function HomePage() {
 
   return (
     <div className="min-h-screen flex flex-col items-center pt-8 md:pt-12">
-      <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-300 h-14">
+      <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center text-gradient-primary h-14">
         Marathon Training
       </h1>
 
@@ -29,10 +29,10 @@ export default async function HomePage() {
         <TodayTraining trainingDay={todaysActivity} currentDate={todayStr} />
       </div>
 
-      <Link href="/plan" className="px-8 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 text-lg">
+      <Link href="/plan" className="px-8 py-3 bg-accent hover:bg-accent-light text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 text-lg">
           View Full Training Plan
         </Link>
-      <p className="mt-12 text-center text-gray-400 text-sm">
+      <p className="mt-12 text-center text-muted text-sm">
         Marathon Date: September 6, 2025
       </p>
     </div>

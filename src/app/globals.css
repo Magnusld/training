@@ -1,21 +1,64 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Light mode colors */
+  --background: #faf9f7;
+  --foreground: #1a1a1a;
+  --surface: #e8f1ec;
+  --surface-elevated: #ffffff;
+  --accent: #0f3118;
+  --accent-light: #1a472a;
+  --accent-lighter: #2d5a3d;
+  --muted: #4a5568;
+  --muted-light: #718096;
+  --border: #d1d5db;
+  --success: #047857;
+  --warning: #b45309;
+  --error: #b91c1c;
+
+  /* Light mode gradients */
+  --gradient-primary: linear-gradient(135deg, #0f3118 0%, #1a472a 50%, #2d5a3d 100%);
+  --gradient-secondary: linear-gradient(135deg, #e8f1ec 0%, #ffffff 100%);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-accent-lighter: var(--accent-lighter);
+  --color-muted: var(--muted);
+  --color-muted-light: var(--muted-light);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Dark mode colors */
+    --background: #0a0f0c;
+    --foreground: #f1f5f4;
+    --surface: #141a16;
+    --surface-elevated: #1e2521;
+    --accent: #2d7a3e;
+    --accent-light: #1ea832;
+    --accent-lighter: #16a34a;
+    --muted: #94a3b8;
+    --muted-light: #64748b;
+    --border: #2a3930;
+    --success: #059669;
+    --warning: #f59e0b;
+    --error: #ef4444;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, #2d7a3e 0%, #1ea832 50%, #16a34a 100%);
+    --gradient-secondary: linear-gradient(135deg, #141a16 0%, #1e2521 100%);
   }
 }
 
@@ -23,4 +66,21 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Utility classes for the new color scheme */
+.bg-gradient-primary {
+  background: var(--gradient-primary);
+}
+
+.bg-gradient-secondary {
+  background: var(--gradient-secondary);
+}
+
+.text-gradient-primary {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
