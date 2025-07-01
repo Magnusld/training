@@ -15,6 +15,7 @@ export interface TrainingWeek {
   focus: string;
   days: TrainingDay[];
   totalWeeklyKm: number;
+  week_id: string;
 }
 
 export const getTodayString = (): string => {
