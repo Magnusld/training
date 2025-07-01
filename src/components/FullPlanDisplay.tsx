@@ -31,7 +31,7 @@ const FullPlanDisplay: React.FC<FullPlanDisplayProps> = ({ plan }) => {
         const hasTodayTraining = week.days.some(day => day.date === todayString);
 
         return (
-          <div key={week.week} ref={hasTodayTraining ? todayRef : undefined}>
+          <div key={week.week_id} ref={hasTodayTraining ? todayRef : undefined}>
             <WeekCard
               weekData={week}
               isCurrentWeekView={hasTodayTraining}

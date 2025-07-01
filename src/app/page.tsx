@@ -1,16 +1,21 @@
 import Link from "next/link";
 import TodayTraining from "../components/TodayTraining";
-import trainingPlanData from "../data/trainingPlan.json";
 import {
   getTodaysTraining,
   getTodayString,
   TrainingWeek,
-} from "../utils/dateUtils";
+} from "@/utils/dateUtils";
 
-export const dynamic = 'force-dynamic';
+async function getPlan() {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/training-plan`, { cache: 'no-store' });
+  if (!res.ok) {
+    throw new Error('Failed to fetch training plan');
+  }
+  return res.json();
+}
 
-export default function HomePage() {
-  const plan: TrainingWeek[] = trainingPlanData as TrainingWeek[];
+export default async function HomePage() {
+  const plan: TrainingWeek[] = await getPlan();
   const todayStr = getTodayString();
   const todaysActivity = getTodaysTraining(plan);
 
@@ -24,11 +29,9 @@ export default function HomePage() {
         <TodayTraining trainingDay={todaysActivity} currentDate={todayStr} />
       </div>
 
-      <Link href="/plan" legacyBehavior>
-        <a className="px-8 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 text-lg">
+      <Link href="/plan" className="px-8 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 text-lg">
           View Full Training Plan
-        </a>
-      </Link>
+        </Link>
       <p className="mt-12 text-center text-gray-400 text-sm">
         Marathon Date: September 6, 2025
       </p>
