@@ -36,7 +36,7 @@ async function getTrainingData() {
         const daysResult = await daysRequest.query(`SELECT * FROM day ORDER BY activity_date`);
 
         // Map the database response to the JSON structure the frontend expects
-        const trainingPlan = weeksResult.recordset.map(week => {
+        return weeksResult.recordset.map(week => {
             const { start_date, total_weekly_km, ...restOfWeek } = week;
             return {
                 ...restOfWeek,
@@ -54,8 +54,6 @@ async function getTrainingData() {
                     })
             };
         });
-
-        return trainingPlan;
     } catch (err) {
         console.error('Database query failed:', err);
         throw new Error('Failed to retrieve training data.');

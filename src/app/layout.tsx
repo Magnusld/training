@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   title: 'Marathon Training Plan',
   description: 'My personal marathon training schedule',
   manifest: '/manifest.json', // Link to your manifest file
+  icons: {
+    icon: '/icons/icon-128x128.png',
+    apple: '/icons/apple-touch-icon.png',
+  },
   // Other application-wide metadata can go here
 };
 

@@ -32,6 +32,7 @@ export default async function HomePage() {
       <Link href="/plan" className="px-8 py-3 bg-accent hover:bg-accent-light text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 text-lg">
           View Full Training Plan
         </Link>
+
       <p className="mt-12 text-center text-muted text-sm">
         Marathon Date: September 6, 2025
       </p>

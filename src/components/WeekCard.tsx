@@ -49,6 +49,9 @@ const DayDisplay: React.FC<{ day: TrainingDay }> = ({ day }) => {
 };
 
 const WeekCard: React.FC<WeekCardProps> = ({ weekData }) => {
+  // Extract week number from either week property or week_id
+  const weekNumber = weekData.week || (weekData.week_id ? parseInt(weekData.week_id) : null);
+
   return (
     <div
       className={`mb-8 p-4 rounded-lg shadow-xl 
@@ -56,7 +59,7 @@ const WeekCard: React.FC<WeekCardProps> = ({ weekData }) => {
     >
       <div className={"flex flex-row justify-between"}>
         <h3 className="text-2xl font-bold mb-1 text-accent">
-          Week {weekData.week}
+          Week {weekNumber}
         </h3>
         <h3 className="text-2xl font-bold mb-1 text-accent">
           {weekData.totalWeeklyKm}km
