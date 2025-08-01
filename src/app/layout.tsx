@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from 'next'; // Import Viewport
 import { Inter } from 'next/font/google';
 import './globals.css';
+import PostHogConsent from "@/components/PostHogConsent";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -34,15 +36,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
       <body
-        className={`${inter.className} bg-background text-foreground min-h-screen`}
+        className={`${inter.className} bg-background text-foreground min-h-screen flex flex-col`}
       >
-        <main className="container mx-auto p-4 max-w-2xl">
+        <PostHogConsent />
+        <main className="container mx-auto p-4 max-w-2xl flex-1">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
 }
-
